@@ -45,4 +45,5 @@ public class GreetingService {
     public Optional<Greeting> getGreetingById(Long id) {
         return greetingRepository.findById(id);
     }
+
 }

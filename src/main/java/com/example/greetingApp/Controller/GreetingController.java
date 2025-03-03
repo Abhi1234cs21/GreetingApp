@@ -43,6 +43,7 @@ public class GreetingController {
         return greetingService.getAllGreetings();
     }
 
+
     /**
      * Retrieves a greeting message by its ID.
      * <p>
